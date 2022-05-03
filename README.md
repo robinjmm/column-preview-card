@@ -10,6 +10,8 @@ This is my solution for the challenge of building a 3-column preview card compon
 
 The goal is to re-create the layout of three card components. The cards would all stack on top of one another on mobile views, then turn into a 3-column layout on larger screens. There is also an element of interactivity when hovering over the buttons in the card.
 
+**Any feedback on how to improve my solution would be greatly appreciated**. 😊
+
 ## User Stories
 The user should be able to:
 - View the optimal layout depending on their device's screen size.
@@ -22,7 +24,7 @@ The user should be able to:
 - Sass
 
 ## Usage
-You can download the project files by clicking on the **Code** then clicking on **Download Zip**.
+You can download the project files by clicking on the green **Code** button, then select **Download Zip**.
 
 Once you finish extracting, move into the project folder, open the terminal, and type the following code:
 
