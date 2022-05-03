@@ -1,0 +1,13 @@
+@use '../base/variables'as *;
+
+body {
+    background-color: $bg-light-gray;
+    color: $text-color;
+    font-family: $ff-lexend;
+    font-weight: 400;
+    font-size: rem(15px);
+}
+
+main {
+    padding: 5vh 0;
+}

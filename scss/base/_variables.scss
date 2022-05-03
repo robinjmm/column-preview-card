@@ -1,0 +1,32 @@
+// Colors
+$text-color: hsla(0, 0%, 100%, 0.75);
+$heading-color: hsl(0, 0%, 95%);
+$text-orange: hsl(31, 77%, 52%);
+$text-cyan: hsl(184, 100%, 22%);
+$text-dark-cyan: hsl(179, 100%, 13%);
+
+$bg-orange: hsl(31, 77%, 52%);
+$bg-cyan: hsl(184, 100%, 22%);
+$bg-dark-cyan: hsl(179, 100%, 13%);
+$bg-light-gray: hsl(0, 0%, 95%);
+
+
+// Fonts
+$base-font-size: 16px;
+$ff-big-shoulder: 'Big Shoulders Display',
+cursive;
+$ff-lexend: 'Lexend Deca',
+sans-serif;
+
+// Functions
+@function rem($value) {
+    $remValue: calc(($value / $base-font-size) * 1rem);
+    @return $remValue;
+}
+
+// $value is the desired size
+// $base is font-size of the parent
+@function em($value, $base) {
+    $emValue: calc(($value / $base) * 1em);
+    @return $emValue;
+}

@@ -1,0 +1,38 @@
+@use '../base/variables'as *;
+
+.card {
+    padding: em(50px, 15px) em(40px, 15px);
+    width: min(90%, rem(306px));
+    margin: 0 auto;
+    line-height: 1.6;
+
+    &--orange {
+        background-color: $bg-orange;
+    }
+
+    &--cyan {
+        background-color: $bg-cyan;
+    }
+
+    &--dark-cyan {
+        background-color: $bg-dark-cyan;
+    }
+
+    &__heading {
+        color: $heading-color;
+        font-family: $ff-big-shoulder;
+        font-size: rem(40px);
+        margin: em(30px, 40px) 0;
+        text-transform: uppercase;
+    }
+
+    &:first-of-type {
+        border-top-left-radius: em(10px, 15px);
+        border-top-right-radius: em(10px, 15px);
+    }
+
+    &:last-child {
+        border-bottom-left-radius: em(10px, 15px);
+        border-bottom-right-radius: em(10px, 15px);
+    }
+}

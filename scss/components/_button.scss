@@ -1,0 +1,33 @@
+@use '../base/variables'as *;
+
+.button {
+    display: inline-block;
+    background-color: $bg-light-gray;
+    border: 1px solid $bg-light-gray;
+    border-radius: 2em;
+    font-size: rem(15px);
+    font-weight: 700;
+    padding: em(18px, 15px) em(32px, 15px);
+    margin-top: 2em;
+    letter-spacing: 1px;
+    transition: border 0.2ms ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+    &--text-orange {
+        color: $text-orange
+    }
+
+    &--text-cyan {
+        color: $text-cyan;
+    }
+
+    &--text-dark-cyan {
+        color: $text-dark-cyan;
+    }
+
+    &:hover,
+    &:focus {
+        border: 1px solid $bg-light-gray;
+        background-color: hsl(0, 0%, 95%, 0);
+        color: $heading-color;
+    }
+}
