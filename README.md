@@ -28,18 +28,24 @@ You can download the project files by clicking on the green **Code** button, the
 
 Once you finish extracting, move into the project folder, open the terminal, and type the following code:
 
-```npm install```
+```
+npm install
+```
 
 This will install all the required dependencies.
 
 To compile Sass into CSS and watch for any future changes, type the following code in your terminal:
 
 
-```npm run sass```
+```
+npm run sass
+```
 
 To compile Sass into a minified version of CSS, run:
 
-``` npm run prod```
+```
+npm run prod
+```
 
 ## Acknowledgement
 I'm very grateful to the people at [Frontendmentor.io](https://frontendmentor.io) for providing designs and challenges that help me improve my skills as a web developer.
