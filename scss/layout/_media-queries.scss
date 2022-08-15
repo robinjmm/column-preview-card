@@ -1,12 +1,7 @@
-@use '../base/variables'as *;
+@use '../base/variables' as *;
 
 
-@media (min-width: 1440px) {
-    body {
-        display: flex;
-        align-items: center;
-    }
-
+@media (min-width: 1024px) {
     main {
         display: flex;
         justify-content: center;

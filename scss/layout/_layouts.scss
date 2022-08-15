@@ -1,6 +1,11 @@
-@use '../base/variables'as *;
+@use '../base/variables' as *;
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
     background-color: $bg-light-gray;
     color: $text-color;
     font-family: $ff-lexend;
@@ -9,5 +14,5 @@ body {
 }
 
 main {
-    padding: 5vh 0;
+    margin-bottom: rem(60px);
 }
