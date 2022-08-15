@@ -1,16 +1,14 @@
 # 3 Column Preview Card
-![](./images/solution-screenshot.png)
+![](assets/images/solution-screenshot.png)
 
 ## Links
 - [Challenge Link](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
-- [Site Preview](https://robinjmm-column-preview.netlify.app/)
+- [Site Preview](https://robinjmm-column-card.vercel.app/)
 
 ## About
 This is my solution for the challenge of building a 3-column preview card component from [Frontendmentor.io](https://frontendmentor.io).
 
 The goal is to re-create the layout of three card components. The cards would all stack on top of one another on mobile views, then turn into a 3-column layout on larger screens. There is also an element of interactivity when hovering over the buttons in the card.
-
-**Any feedback on how to improve my solution would be greatly appreciated**. 😊
 
 ## User Stories
 The user should be able to:
@@ -18,15 +16,16 @@ The user should be able to:
 - See the hover states for interactive elements.
 
 ## Built With
-- Semantic HTML5
+- HTML5
 - CSS3
 - Flexbox
 - Sass
+- PostCSS
 
 ## Usage
 You can download the project files by clicking on the green **Code** button, then select **Download Zip**.
 
-Once you finish extracting, move into the project folder, open the terminal, and type the following code:
+Once you finish extracting, open the terminal, move to the project folder, and type the following code:
 
 ```
 npm install
